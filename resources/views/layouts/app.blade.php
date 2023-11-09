@@ -30,6 +30,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                        <li>
+                            <a style=" text-decoration: none" class="text-dark" href="{{route('view.category')}}" >Category View</a>
+                        </li>
+                        <li>
+                            <a style=" text-decoration: none" class="text-dark mx-3 " href="{{route('show.product')}}" >Product View</a>
+                        </li>
 
                     </ul>
 
